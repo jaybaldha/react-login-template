@@ -1,10 +1,12 @@
+/*jshint esversion: 6 */
 import React, { Component } from "react";
 
 export default class Login extends Component {
     render() {
         return (
+           
             <form>
-                <h3>Sign In</h3>
+                <h3>Sign In </h3>
 
                 <div className="form-group">
                     <label>Email address</label>
@@ -28,6 +30,7 @@ export default class Login extends Component {
                     Forgot <a href="#">password?</a>
                 </p>
             </form>
+           
         );
     }
 }
