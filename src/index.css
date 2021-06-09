@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  background: #b8c8cf !important;
+  /* background: #b8c8cf !important; */
   min-height: 100vh;
   display: flex;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
+  background-image: url("./images/image_bg.jpg");
 }
 
 h1,h2,h3,h4,h5,h6,label,span {
@@ -22,8 +23,11 @@ h1,h2,h3,h4,h5,h6,label,span {
 body, html, .App, #root, .auth-wrapper {
   width: 100%;
   height: 100%;
-}
 
+}
+#navText{
+  color:#b8c8cf;
+}
 .navbar-light {
   background-color: #ffffff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);

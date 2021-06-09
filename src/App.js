@@ -3,6 +3,7 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import logo from './images/logo-ontario@2x (1).png';
 
 import Login from "./components/Login.js";
 import SignUp from "./components/Signup.js";
@@ -13,6 +14,8 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
           {/* <Link className="navbar-brand" to={"/sign-in"}>positronX.io</Link> */}
+          <img src={logo} className="navbar-brand"/>
+          <label id="navText">Ontario Ministry of Transportation</label>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
