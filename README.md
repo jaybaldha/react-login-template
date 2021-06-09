@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `git clone https://github.com/jaybaldha/react-login-template.git` to clone the project in your local workspace.
+
 ### `npm install` to install the dependencies from the package.json file.
 
 ### `yarn start` to run the app after dependencies have been installed.
