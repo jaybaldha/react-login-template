@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Learn More
 
-This is a college project where are given a scenario to develop a LOGIN page, MAIN page and a QUIZ page.
+This is a college project where we are given a scenario to develop a LOGIN page, MAIN page and a QUIZ page.
 
 
 
